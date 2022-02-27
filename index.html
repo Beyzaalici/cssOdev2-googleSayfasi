@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Google</title>
+    <style>
+        .img{
+            margin-left: 40%;
+            margin-top: 10%;
+            
+        }
+        input{
+            width: 300px;
+        }
+        .box1{
+            margin-left: 70px;
+            margin-right: 30px;
+        }
+        .kutu{
+            float: left; /*kutuların yan yana gelmesi icin*/
+            width: 455px;
+            height: 130px;
+            padding-top: 15px;
+        }
+        .bg-red{
+            background-color: #7EE5DA;
+
+        }
+        .bg-green{
+            background-color: #70CCC2;
+        }
+        .bg-blue{
+            background-color: #62B3AA;
+        }
+        .box1 .ortala{
+            text-align: center; /*kutunun icindekileri ortalar*/ 
+            
+        }
+        .clear{
+            clear: both; /*float:left yaptıktan sonra bu işlemi temizlemek için kullanılır*/
+        }
+        .ortala-p{
+            text-align: center;
+            padding-top: 10px;
+        }
+        
+        
+    </style>
+</head>
+<body>
+    <img src="C:\Users\Beyza\Desktop\cssOdev2\img\google.jpg" alt="google" class="img">
+    <div class="box1" style="width: 90%; background-color: #EEEEEE;">
+        
+        <div class="ortala">
+            <p>Search the web using Google!</p>
+            <input type="text" name="isim" > <br>
+            <button>
+            Google Search
+            </button> 
+            <button>
+            I'm Feeling Lucky
+            </button>
+        </div>
+        
+
+
+    <div class="box2">
+        <div class="kutu bg-red ortala">
+            Special Searches <br>
+            <a href="https://web.archive.org/web/19990224014327/http://www.google.com/stanford">Standford Search</a> <br>
+            <a href="https://web.archive.org/web/19990221231654/http://www.google.com/linux">Linux Search</a> <br>
+        </div>
+        <div class="kutu bg-green ortala">
+            <a href="https://web.archive.org/web/19990221212930if_/http://www.google.com/help.html">Help!</a> <br> 
+            <a href="https://web.archive.org/web/19990427105230if_/http://www.google.com/about.html">About Google!</a> <br> 
+            <a href="https://web.archive.org/web/19990221202430if_/http://www.google.com/company.html">Company Info</a> <br> 
+            <a href="https://web.archive.org/web/19990224043535if_/http://www.google.com/stickers.html">Google! Logos</a> <br>
+        </div>
+        <div class="kutu bg-blue ortala">
+            <p>Get Google! <br> updates Monthly </p> 
+            
+            <input type="email" name="email" width="200" placeholder="Mail Adresinizi Girin"> <br>
+            <button>Subscribe</button>
+            <a href="https://web.archive.org/web/19990508062635/http://www.egroups.com/list/google-friends">Archive</a>
+
+        </div>
+    </div>
+    </div>
+
+    <div class="clear ortala-p">
+        <p>Copyright ©1998 Google Inc.</p>
+    </div>
+
+    
+    
+</body>
+</html>
